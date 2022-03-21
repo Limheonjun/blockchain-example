@@ -18,6 +18,17 @@
   - 이 경우에 작업증명에 성공한 것이고, 이후에는 새롭게 블록체인에 해당 블록을 추가할 수 있음
   - 이때 `000003`이라는 해시값은 작업 난이도에 의해 정해지게됨
 
+## Trasaction의 역할
+- 코인의 오너만이 해당 코인을 사용할 수 있게 해줌
+- 새로운 블럭 생성 전 이미 접수된 트랜잭션에 대해 다른 사람들이 수정하지 못하도록 방지하는 기능
+- 체인의 블럭들은 많은 트랜잭션들을 취급하기 때문에 새로운 트랜잭션을 처리하는데 시간이 굉장히 오래 걸리 수도 있음
+- 이를 피하기 위해 사용되지 않은 모든 트랜잭션을 인풋으로 사용되게끔 함
+
+## Key의 역할
+- Public Key : 진위 확인
+- Private Key : 데이터 서명
+
+
 ## 참고자료
 - https://medium.com/programmers-blockchain/create-simple-blockchain-java-tutorial-from-scratch-6eeed3cb03fa
 - https://brunch.co.kr/@chunja07/41

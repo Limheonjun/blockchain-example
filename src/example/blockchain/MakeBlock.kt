@@ -9,13 +9,13 @@ val difficulty = 30
 fun main() {
     //add our blocks to the blockchain ArrayList:
     println("Trying to Mine block 1... ")
-    addBlock(Block("Hi im the first block", "0"))
-
-    println("Trying to Mine block 2... ")
-    addBlock(Block("Yo im the second block", blockchain[blockchain.size - 1].hash))
-
-    println("Trying to Mine block 3... ")
-    addBlock(Block("Hey im the third block", blockchain[blockchain.size - 1].hash))
+//    addBlock(Block("Hi im the first block", "0"))
+//
+//    println("Trying to Mine block 2... ")
+//    addBlock(Block("Yo im the second block", blockchain[blockchain.size - 1].hash))
+//
+//    println("Trying to Mine block 3... ")
+//    addBlock(Block("Hey im the third block", blockchain[blockchain.size - 1].hash))
 
     println("Blockchain is Valid: ${isChainValid()}")
 
